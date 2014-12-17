@@ -1,5 +1,7 @@
 #lang racket
 
+#! Author : Anirudh Vemula
+
 (define (sum l)
   (if (empty? l) 0
       (+ (car l) (sum (cdr l)))))
